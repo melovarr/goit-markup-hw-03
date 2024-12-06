@@ -28,22 +28,28 @@ a {
         padding: 0 15px;
         margin: 0 auto;
 }
-
+.page-header {
+        border-bottom:  1px solid #E7E9FC;
+}
+.header-container {
+         display: flex;
+        align-items: center;
+}
 .header-nav {
         display: flex;
-        /* justify-content: space-between; */
         align-items: center;
-        border-bottom:  1px solid #E7E9FC;
 }
 
 .nav-list {
         display: flex;
+        align-items: center;
         gap: 40px;
 
 }
 
 .contacts-list {
         display: flex;
+        align-items: center;
         gap: 40px;
         
 }
